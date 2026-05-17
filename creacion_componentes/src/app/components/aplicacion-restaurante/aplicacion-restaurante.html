@@ -1,0 +1,63 @@
+<div class="container mt-5">
+
+  <div class="card shadow-lg border-0 rounded-4">
+
+    <div class="card-body p-5">
+
+      <h1 class="text-center text-danger fw-bold mb-4">
+        🍽️ {{ nombreRestaurante }}
+      </h1>
+
+      <h3 class="text-center mb-3">
+        🍕 Platillo especial:
+        <span class="text-primary">
+          {{ platilloEspecial }}
+        </span>
+      </h3>
+
+      <p class="fs-5 text-center">
+        💲 Precio:
+        <span class="fw-bold text-success">
+          ${{ precio }}
+        </span>
+      </p>
+
+      <div class="text-center mb-4">
+
+        <span
+          class="badge fs-6"
+          [ngClass]="disponibilidad ? 'bg-success' : 'bg-danger'">
+
+          {{
+            disponibilidad
+              ? '✅ Está disponible'
+              : '❌ No está disponible'
+          }}
+
+        </span>
+
+      </div>
+
+      <div class="bg-light rounded-3 p-4 border">
+
+        <h4 class="mb-3 text-secondary">
+          📍 Información del restaurante
+        </h4>
+
+        <p class="mb-2">
+          🏘️ <strong>Calle:</strong>
+          {{ infoRestaurante.calle }}
+        </p>
+
+        <p class="mb-0">
+          🏙️ <strong>Ciudad:</strong>
+          {{ infoRestaurante.ciudad }}
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
