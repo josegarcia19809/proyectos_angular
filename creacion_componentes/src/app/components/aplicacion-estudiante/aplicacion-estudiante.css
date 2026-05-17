@@ -1,0 +1,21 @@
+.caja-estudiante {
+  background-color: #FFF3E0;
+  border-radius: 15px;
+  padding: 12px;
+  margin-top: 25px;
+  font-family: Arial, sans-serif;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.info-escolar {
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px solid #ccc;
+}
+
+h1, h2, h3, p {
+  text-align: center;
+}

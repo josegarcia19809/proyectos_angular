@@ -1,0 +1,17 @@
+<div class="caja-estudiante">
+  <h1>{{ nombreEstudiante }}</h1>
+  <h3>Calificación: {{ calificacion }}</h3>
+
+  <p>
+    Materias favoritas:
+    {{ materiasFavoritas.join(', ') }}
+  </p>
+  <p>
+    {{ estaInscrita ? '✅ Inscrita' : '❌ No inscrita' }}
+  </p>
+  <div class="info-escolar">
+    <p>🏫 Grupo: {{ infoEscolar.grupo }}</p>
+
+    <p>📍 Campus: {{ infoEscolar.campus }}</p>
+  </div>
+</div>
