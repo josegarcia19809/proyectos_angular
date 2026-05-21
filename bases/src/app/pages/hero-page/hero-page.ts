@@ -1,4 +1,4 @@
-import { Component, signal } from '@angular/core';
+import { Component, computed, signal } from '@angular/core';
 
 @Component({
   selector: 'app-hero-page',
@@ -19,12 +19,16 @@ export class HeroPage {
     this.age.set(22);
   }
 
+  heroDescription = computed(() => {
+    return `${this.name()} - ${this.age()}`;
+  });
+
   resetForm() {
     this.name.set('Ironman');
     this.age.set(45);
   }
 
-  chageAge(){
+  chageAge() {
     this.age.set(60);
   }
 }
