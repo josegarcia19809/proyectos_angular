@@ -1,12 +1,13 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { Encabezado } from './components/encabezado/encabezado';
+import { Usuario } from './components/usuario/usuario';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Encabezado],
+  imports: [RouterOutlet, Encabezado, Usuario],
   templateUrl: './app.html',
-  styleUrl: './app.css'
+  styleUrl: './app.css',
 })
 export class App {
   protected readonly title = signal('proyecto-inicial-angular-total');

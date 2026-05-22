@@ -1,1 +1,1 @@
-Angular Total - Proyecto inicial: Creación del encabezado
+Angular Total - Proyecto inicial:  Mostrar Contenido Dinámico con Interpolación de Cadenas
