@@ -1,1 +1,1 @@
-Angular Total - Proyecto inicial:  Mostrar Contenido Dinámico con Interpolación de Cadenas
+Angular Total - Proyecto inicial:  Vincular propiedades y escuchar eventos

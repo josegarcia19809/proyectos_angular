@@ -10,4 +10,13 @@ const indiceAleatorio = Math.floor(Math.random() * USUARIOS_FALSOS.length);
 })
 export class Usuario {
   usuarioSeleccionado = USUARIOS_FALSOS[indiceAleatorio];
+
+  get rutaImagen() {
+    return 'usuarios/' + this.usuarioSeleccionado.avatar;
+  }
+
+  alSeleccionarUsuario(){
+    const indiceAleatorio = Math.floor(Math.random() * USUARIOS_FALSOS.length);
+    this.usuarioSeleccionado = USUARIOS_FALSOS[indiceAleatorio];
+  }
 }
