@@ -1,1 +1,1 @@
-Angular Total - Proyecto inicial:  Usar Outputs y Emitir Información en Angular
+Angular Total - Proyecto inicial: Ejercicio: Crea un Componente Configurable en Angular
