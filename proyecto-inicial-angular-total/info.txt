@@ -1,1 +1,1 @@
-Angular Total - Proyecto inicial:  Vincular propiedades y escuchar eventos
+Angular Total - Proyecto inicial:  Introducción a Signals en Angular

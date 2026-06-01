@@ -5,7 +5,7 @@ import { Usuario } from './components/usuario/usuario';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Encabezado, Usuario],
+  imports: [Encabezado, Usuario],
   templateUrl: './app.html',
   styleUrl: './app.css',
 })
