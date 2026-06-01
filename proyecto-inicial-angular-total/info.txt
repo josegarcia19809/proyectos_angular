@@ -1,1 +1,1 @@
-Angular Total - Proyecto inicial:  Introducción a Signals en Angular
+Angular Total - Proyecto inicial:  Uso de Inputs

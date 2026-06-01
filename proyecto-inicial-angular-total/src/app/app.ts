@@ -2,6 +2,7 @@ import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { Encabezado } from './components/encabezado/encabezado';
 import { Usuario } from './components/usuario/usuario';
+import {USUARIOS_FALSOS} from './usuarios-falsos';
 
 @Component({
   selector: 'app-root',
@@ -11,4 +12,5 @@ import { Usuario } from './components/usuario/usuario';
 })
 export class App {
   protected readonly title = signal('proyecto-inicial-angular-total');
+  usuarios= USUARIOS_FALSOS;
 }
