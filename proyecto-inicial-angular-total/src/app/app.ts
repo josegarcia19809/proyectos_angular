@@ -13,4 +13,8 @@ import {USUARIOS_FALSOS} from './usuarios-falsos';
 export class App {
   protected readonly title = signal('proyecto-inicial-angular-total');
   usuarios= USUARIOS_FALSOS;
+
+  alSeleccionarUsuario(id: string){
+    console.log(id);
+  }
 }

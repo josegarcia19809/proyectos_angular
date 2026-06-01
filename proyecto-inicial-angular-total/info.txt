@@ -1,1 +1,1 @@
-Angular Total - Proyecto inicial:  Uso de Inputs
+Angular Total - Proyecto inicial:  Usar Outputs y Emitir Información en Angular
