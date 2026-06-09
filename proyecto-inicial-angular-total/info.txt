@@ -1,7 +1,2 @@
-Angular Total - Proyecto inicial: Almacenar Modelos de Datos en Archivos Separados en Angular
+Angular Total - Proyecto inicial: Estilizado CSS Dinámico con Vinculación de Clases en Angular
 
-
-
-6 min
-Reproducir
-53. Estilizado CSS Dinámico con Vinculación de Clases en Angular
