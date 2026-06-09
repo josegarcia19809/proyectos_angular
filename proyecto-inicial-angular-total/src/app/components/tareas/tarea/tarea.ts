@@ -1,12 +1,6 @@
 import { Component, Input } from '@angular/core';
+import { type TareaComponente } from './tarea.model';
 
-interface TareaComponente {
-  id: string;
-  idUsuario: string;
-  titulo: string;
-  resumen: string;
-  expira: string;
-}
 @Component({
   selector: 'app-tarea',
   imports: [],

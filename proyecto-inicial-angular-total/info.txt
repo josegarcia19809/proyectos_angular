@@ -1,1 +1,7 @@
-Angular Total - Proyecto inicial: Mostrar contenido de una lista y condicionalmente
+Angular Total - Proyecto inicial: Almacenar Modelos de Datos en Archivos Separados en Angular
+
+
+
+6 min
+Reproducir
+53. Estilizado CSS Dinámico con Vinculación de Clases en Angular
