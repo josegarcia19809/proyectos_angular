@@ -1,1 +1,1 @@
-Angular Total - Proyecto inicial: Ejercicio: Crea un Componente Configurable en Angular
+Angular Total - Proyecto inicial: Mostrar contenido de una lista y condicionalmente

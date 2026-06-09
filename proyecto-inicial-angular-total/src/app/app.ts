@@ -2,7 +2,7 @@ import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { Encabezado } from './components/encabezado/encabezado';
 import { Usuario } from './components/usuario/usuario';
-import {USUARIOS_FALSOS} from './usuarios-falsos';
+import { USUARIOS_FALSOS } from './usuarios-falsos';
 import { Tareas } from './components/tareas/tareas';
 
 @Component({
@@ -14,9 +14,9 @@ import { Tareas } from './components/tareas/tareas';
 export class App {
   protected readonly title = signal('proyecto-inicial-angular-total');
   usuarios = USUARIOS_FALSOS;
-  idUsuarioSeleccionado ="u1"
+  idUsuarioSeleccionado?: string;
 
-  get usuarioSeleccionado(){
+  get usuarioSeleccionado() {
     return this.usuarios.find((usuario) => usuario.id === this.idUsuarioSeleccionado)!;
   }
 
