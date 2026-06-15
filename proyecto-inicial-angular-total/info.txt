@@ -1,2 +1,2 @@
-Angular Total - Proyecto inicial: Estilizado CSS Dinámico con Vinculación de Clases en Angular
+Angular Total - Proyecto inicial: Manejando datos de un formulario
 

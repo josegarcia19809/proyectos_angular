@@ -1,8 +1,14 @@
+@if (estaAgregandoNuevaTarea) {
+  <app-nueva-tarea
+    (cancelarTarea)="cancelarTareaNueva()"
+    (agregarTarea)="alAgregarTarea($event)"
+  />
+}
 <section id="tareas">
   <header>
     <h2>Tareas de {{ nombre }}</h2>
     <menu>
-      <button>Agregar tarea nueva</button>
+      <button (click)="crearTareaNueva()" )>Agregar tarea nueva</button>
     </menu>
   </header>
   <ul>
@@ -10,6 +16,7 @@
       <li>
         <app-tarea
           [tarea]="tarea"
+          (terminada)="alCompletarTarea($event)"
         />
       </li>
     }
