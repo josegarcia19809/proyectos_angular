@@ -1,2 +1,2 @@
-Angular Total - Proyecto inicial: Manejando datos de un formulario
+Angular Total - Proyecto inicial: Servicios e inyección de dependencias
 
