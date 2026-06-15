@@ -27,6 +27,13 @@ export class TareasServices {
     },
   ];
 
+  constructor() {
+    const tareas = localStorage.getItem('tareas');
+    if (tareas) {
+      this.tareasFalses = JSON.parse(tareas);
+    }
+  }
+
   obtenerTareasDeUsuario(idUsuario: string) {
     return this.tareasFalses.filter((tarea) => tarea.idUsuario === idUsuario);
   }
@@ -39,9 +46,15 @@ export class TareasServices {
       id: new Date().getTime().toString(),
       titulo: infoDeTarea.titulo,
     });
+    this.guardarTareas();
   }
 
   eliminarTarea(id: string) {
     this.tareasFalses = this.tareasFalses.filter((tarea) => tarea.id !== id);
+    this.guardarTareas();
+  }
+
+  private guardarTareas(){
+    localStorage.setItem("tareas", JSON.stringify(this.tareasFalses));
   }
 }

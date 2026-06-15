@@ -1,2 +1,1 @@
-Angular Total - Proyecto inicial: Servicios e inyección de dependencias
-
+Angular Total - Proyecto inicial: Usar localStorage para Almacenamiento de Datos
